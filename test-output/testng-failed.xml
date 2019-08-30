@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="automationjar.testscripts.Ksrtc_Page">
+        <methods>
+          <include name="searchBus"/>
+          <include name="toPlaceName"/>
+          <include name="loadingPropertiesFile"/>
+          <include name="loadingHomePage"/>
+          <include name="launchDriver"/>
+          <include name="fromPlaceName"/>
+          <include name="dateOfJourney"/>
+        </methods>
+      </class> <!-- automationjar.testscripts.Ksrtc_Page -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
